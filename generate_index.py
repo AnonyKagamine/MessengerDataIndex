@@ -8,7 +8,8 @@ OUTPUT_FILENAME = "index.json"
 def main():
     index_list = []
     for filename in sys.stdin.readlines():
-        with open(filename.strip("\n"), "r") as f:
+        filename = filename.strip("\n")
+        with open(filename, "r") as f:
             jsonobj = json.load(f)
             index_column = {}
             index_column["title"] = jsonobj["_title"]
