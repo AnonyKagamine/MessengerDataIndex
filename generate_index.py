@@ -15,7 +15,8 @@ def main():
             index_column["title"] = jsonobj["_title"]
             index_column["description"] = jsonobj["_description"]
             index_column["provider"] = jsonobj["_provider"]
-            index_column["url"] = urljoin(GH_PAGES_PREFIX, filename)
+            # index_column["url"] = urljoin(GH_PAGES_PREFIX, filename)
+            index_column["url"] = "../" + filename
 
             index_list.append(index_column)
 
