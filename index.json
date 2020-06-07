@@ -6,6 +6,12 @@
     "url": "../MessengerData/z_playground/10_phrases_common.json"
   },
   {
+    "title": "讳字版习总书记语录",
+    "description": "我们亲切地称呼总加速师为“大大”。",
+    "provider": "Anony Kagamine",
+    "url": "../MessengerData/v1/01_dada_noxi.json"
+  },
+  {
     "title": "原版废话集",
     "description": "源自原版废话信使，经典永流传。",
     "provider": "UMRnInside, menzi11",
@@ -16,11 +22,5 @@
     "description": "源自伟大的总加速师，正能量信使的默认选项。",
     "provider": "Anony Kagamine",
     "url": "../MessengerData/v1/00_classic.json"
-  },
-  {
-    "title": "讳字版习总书记语录",
-    "description": "我们亲切地称呼总加速师为“大大”。",
-    "provider": "Anony Kagamine",
-    "url": "../MessengerData/v1/01_dada_noxi.json"
   }
 ]
